@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to top, rgb(18, 188, 29), white);
+    text-align: center;
+}
+
+h2 {
+    position: absolute;
+    font-size: 25px;
+    margin: 10px;
+}
+
+h2 span {
+    color: rgb(222, 13, 13);
+}
+
+h1 {
+    font-size: 40px;
+    padding-top: 60px;
+    text-transform: uppercase;
+}
+
+h1 span {
+    color: rgb(10, 99, 5);
+    font-size: 60px;
+}
+
+img {
+    margin-top: 40px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+button {
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+    height: 60px;
+    width: 90px;
+    background-color: rgba(57, 57, 57, 0.864);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.admin-btn:hover {
+    background-color: rgb(6, 158, 6);
+}
+
+.log-out-btn:hover {
+    background-color: rgb(182, 29, 29);
+}
+
+.hidden {
+    display: none;
+}

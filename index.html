@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>safe-content</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body onload="onCheckAlreadyLog()">
+    <h1><span>L</span>ogin page for <br> authorized <br> users only </h1>
+
+    <img src="img/user.png" alt="user">
+
+    <h2>Welcome! <br> <span>- Please sign in -</span></h2>
+
+    <form onsubmit="onCheckLogin(event)">
+        <input class="form" type="text" name="name-txt" placeholder="user name" />
+        <input class="form" type="text" name="pass-txt" placeholder="user password" />
+        <button class="login-btn">Login</button>
+    </form>
+
+    <script src="js/controller.js"></script>
+    <script src="js/services/storage-service.js"></script>
+    <script src="js/services/safe-content-service.js"></script>
+</body>
+
+</html>

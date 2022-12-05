@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to top, rgb(15, 38, 156), white);
+    text-align: center;
+    background-attachment: fixed;
+}
+
+h2 {
+    position: absolute;
+    font-size: 25px;
+    margin: 10px;
+}
+
+h2 span {
+    color: rgb(222, 13, 13);
+}
+
+h1 {
+    font-size: 40px;
+    padding-top: 60px;
+    text-transform: uppercase;
+}
+
+h1 span {
+    color: rgb(12, 18, 139);
+    font-size: 60px;
+}
+
+button {
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    border: none;
+    border-radius: 2px;
+    height: 60px;
+    width: 90px;
+    background-color: rgba(57, 57, 57, 0.864);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.log-out-btn:hover {
+    background-color: rgb(182, 29, 29);
+}
+
+table {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.553);
+    color: rgba(255, 255, 255, 0.722);
+    font-size: 20px;
+}
+
+th {
+    height: 100px;
+    width: 180px;
+    background-color: r;
+    color: rgb(225, 120, 22);
+    text-transform: uppercase;
+}
+
+.cell {
+    border: 2px solid black;
+    height: 100px;
+    width: 180px;
+}
